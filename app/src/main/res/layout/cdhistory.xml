@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cdhistory"
+    android:layout_margin="12dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="6dp"
+    app:contentPadding="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        >
+
+        <TextView
+            android:id="@+id/txttransactionIdcd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="@string/transactionid"
+            android:textColor="#ff6600"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:textColor="#ff6600"
+            android:id="@+id/txtemailcd"
+            android:textStyle="bold"
+            android:layout_below="@id/txttransactionIdcd"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phonenumber"
+            android:textColor="#ff6600"
+            android:id="@+id/txtphonecd"
+            android:textStyle="bold"
+            android:layout_below="@id/txtemailcd"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/transactionstatus"
+            android:textColor="#ff6600"
+            android:id="@+id/txttransactionStatuscd"
+            android:textStyle="bold"
+            android:layout_below="@id/txtphonecd"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/amount"
+            android:textColor="#ff6600"
+            android:id="@+id/txtamountcd"
+            android:textStyle="bold"
+            android:layout_below="@id/txttransactionStatuscd"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date"
+            android:textColor="#ff6600"
+            android:id="@+id/txtdatecd"
+            android:textStyle="bold"
+            android:layout_below="@id/txtamountcd"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reference"
+            android:textColor="#ff6600"
+            android:id="@+id/txtreferencecd"
+            android:textStyle="bold"
+            android:layout_below="@id/txtdatecd"
+            android:textSize="15sp"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

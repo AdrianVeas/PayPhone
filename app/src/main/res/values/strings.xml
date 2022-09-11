@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PayPhone</string>
+    <string name="cancel">CANCEL</string>
+    <string name="pay">PAY</string>
+    <string name="code">Code</string>
+    <string name="phone_number">Phone number</string>
+    <string name="amount_payable">Amount payable</string>
+    <string name="reference">Reference</string>
+    <string name="payphone">PayPhone</string>
+    <string name="insert_the_data">INSERT THE DATA</string>
+    <string name="pay_with_payphone">PAY WITH PAYPHONE</string>
+    <string name="date">date</string>
+    <string name="amount">amount</string>
+    <string name="transactionstatus">transactionStatus</string>
+    <string name="phonenumber">phoneNumber</string>
+    <string name="email">email</string>
+    <string name="transactionid">transactionId</string>
+</resources>
